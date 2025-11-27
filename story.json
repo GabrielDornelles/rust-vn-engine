@@ -1,0 +1,41 @@
+[
+  {
+    "scene_id": "Intro",
+    "content": {
+      "type": "Dialogue",
+      "speaker": "Jin",
+      "text": "We must leave before night falls.",
+      "next": "Fork"
+    }
+  },
+  {
+    "scene_id": "Fork",
+    "content": {
+      "type": "Choice",
+      "speaker": "Jin",
+      "text": "Where do you want to go?",
+      "options": [
+        { "description": "Left", "next": "LeftPath" },
+        { "description": "Right", "next": "RightPath" }
+      ]
+    }
+  },
+  {
+    "scene_id": "LeftPath",
+    "content": {
+      "type": "Dialogue",
+      "speaker": "Jin",
+      "text": "The left path leads into a peaceful clearing. You feel safe for the first time in days.",
+      "next": null
+    }
+  },
+  {
+    "scene_id": "RightPath",
+    "content": {
+      "type": "Dialogue",
+      "speaker": "Jin",
+      "text": "Darkness thickens as you walk the right path. A distant howl freezes you in place. This is the end...",
+      "next": null
+    }
+  }
+]
